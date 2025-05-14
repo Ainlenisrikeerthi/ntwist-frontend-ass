@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sortable List | NTWIST Assignment</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <img src="./assets/image.png" alt="NTWIST Logo">
+        <span>NTWIST</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Contact Form</a></li>
+          <li><a href="sort.html" class="active">Sortable List</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="main-content">
+      <h1>Sortable List</h1>
+      <p>Click the button below to sort the list alphabetically.</p>
+      
+      <ul id="nameList" class="name-list">
+        <li>keerthi</li>
+        <li>Anu</li>
+        <li>Barbie</li>
+        <li>Danu</li>
+        <li>sita</li>
+        <li>rahul</li>
+      </ul>
+      
+      <button onclick="sortList()">Sort Alphabetically</button>
+    </main>
+  </div>
+  <script src="assets/js/sort.js"></script>
+</body>
+</html>
