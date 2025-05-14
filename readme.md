@@ -22,7 +22,7 @@ A multi-page mini web application built using HTML, CSS, and Vanilla JavaScript 
 # How to Run
 
 1. Clone the repository:
-   git clone 
+   git clone https://github.com/Ainlenisrikeerthi/ntwist-frontend-ass
 
 2. Navigate to the project directory:
    cd ntwist-frontend-ass
