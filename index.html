@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form | NTWIST Assignment</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <img src="./assets/image.png" alt="NTWIST Logo">
+        <span>NTWIST</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Contact Form</a></li>
+          <li><a href="sort.html">Sortable List</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="main-content">
+      <h1>Contact Form</h1>
+      <p>Please fill out the form below to get in touch with us.</p>
+      
+      <form id="contactForm">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required pattern="[A-Za-z\s]+" placeholder="Enter your name">
+        </div>
+        
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="Enter your email">
+        </div>
+        
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required placeholder="Your message"></textarea>
+        </div>
+        
+        <button type="submit">Submit</button>
+      </form>
+      
+      <div id="confirmation"></div>
+      <div id="timeSpent"></div>
+      
+      <div class="rating-section">
+        <h2>Rate Our Website</h2>
+        <p>How would you rate your experience?</p>
+        
+        <div class="star-rating" id="starRating">
+          <span data-value="5">★</span>
+          <span data-value="4">★</span>
+          <span data-value="3">★</span>
+          <span data-value="2">★</span>
+          <span data-value="1">★</span>
+        </div>
+        
+        <p id="ratingResult"></p>
+      </div>
+    </main>
+  </div>
+  <script src="assets/js/form.js"></script>
+</body>
+</html>
